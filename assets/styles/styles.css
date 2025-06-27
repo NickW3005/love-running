@@ -93,10 +93,36 @@ main {
     background-color: lightblue;
     /* Make main content push the footer all the way to the bottom */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Styles for Footer */
 
 footer {
     background-color: orange;
+}
+
+/* Media Query for tablets and largers screens 768px and up */
+
+@media  screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }

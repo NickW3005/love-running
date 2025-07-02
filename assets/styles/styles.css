@@ -90,10 +90,18 @@ nav {
 /* Styles for Main Content */
 
 main {
-    background-color: lightblue;
+
     /* Make main content push the footer all the way to the bottom */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/* Hero section styles */
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero-image.webp) no-repeat center center/cover;
 }
 
 /* Styles for Footer */

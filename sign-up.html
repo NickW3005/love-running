@@ -56,7 +56,83 @@
       </nav>
     </header>
     <!--Main Content-->
-    <main>Main Content</main>
+    <main>
+      <section id="signup">
+        <h2><i class="fa-solid fa-heart-pulse"></i> Lets get you signed up!</h2>
+        <form
+          action="https://formdump.codeinstitute.net"
+          method="post"
+          id="signup-form"
+        >
+          <label for="fname">First Name</label>
+          <br />
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="lname">Last Name</label>
+          <br />
+          <input
+            type="text"
+            name="lname"
+            id="lname"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="email">Email</label>
+          <br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="text-input"
+            required
+          />
+          <br />
+          <div class="radio-buttons">
+            <div>
+              <label for="road">Road</label>
+              <input
+                type="radio"
+                name="running-prefrence"
+                id="road"
+                value="road"
+                required
+                checked
+              />
+            </div>
+            <div>
+              <label for="trail">Trail</label>
+              <input
+                type="radio"
+                name="running-prefrence"
+                id="road"
+                value="road"
+                required
+                checked
+              />
+            </div>
+            <div>
+              <label for="both">Both</label>
+              <input
+                type="radio"
+                name="running-prefrence"
+                id="both"
+                value="both"
+                required
+                checked
+              />
+            </div>
+          </div>
+          <button type="submit" class="join-button">Lets Run!</button>
+        </form>
+      </section>
+    </main>
     <!--Footer-->
     <footer>
       <ul id="social-networks">

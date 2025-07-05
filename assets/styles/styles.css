@@ -207,6 +207,18 @@ hr {
     color: #fafafa;
 }
 
+/* Gallery Page */
+
+#photos img {
+    width: 100%;
+    /* Helps alt text in case of a broken image */
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* Styles for Footer */
 
 #social-networks {
